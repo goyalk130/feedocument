@@ -1,27 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+*{
+  /* border: 1px solid black; */
+}
+@keyframes scooter {
+  0%{
+    bottom: 0;
+  }
+  100%{
+    bottom: 0.1rem;
   }
 }
+@keyframes move {
+  0%{
+    left: 0;
+  }
+  10%{
+    left: 0;
+  }
+  100%{
+    left: 100%;
+  }
+}
+.scooter{
+  animation: scooter 0.5s infinite alternate ease-in-out ;
+  display: inline;
+  left: 1rem;
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  
+}
+.start{
+  letter-spacing: -0.5rem;
+}
+.move{
+  animation: move 5s ease-in forwards;
+  /* border-left: 2px solid black; */
+}
+
+
+.line{
+  animation: widthinc 2s ease-in forwards;
+  border-top: 1px solid black;
+}
+
+@keyframes widthinc {
+    0%{
+      width: 0;
+    }
+    100%{
+      width: 100%;
+    }
+}
+
+body,html{
+  height: 100%;
+  width: 100%;
 }
