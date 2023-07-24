@@ -9,7 +9,7 @@ const MainData = () => {
     console.log(count)
   return (
     <div className='maindata overflow-y-scroll font-mitr w-full h-full  bg-dots flex justify-center items-start'>
-        <div className=' rounded-lg my-20  w-9/12 '>
+        <div className=' rounded-lg my-20 w-[92%] md:w-9/12 '>
             <Datawrapper count={count} content={data}/>
         </div>
     </div>
