@@ -1,7 +1,5 @@
 "use client";
 import MainData from "@/components/MainData";
-import Scooter from "@/components/scooter";
-import Image from "next/image";
 import { useState } from "react";
 
 export default function Home() {
