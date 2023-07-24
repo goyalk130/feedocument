@@ -22,7 +22,8 @@ module.exports = {
       },
       fontFamily:{
         "fjalla": ['Fjalla One', 'sans-serif'],
-        "mitr":['Mitr', "sans-serif"]
+        "mitr":['Mitr', "sans-serif"],
+        "anton":['Anton', "sans-serif"]
       },
       backgroundImage: {
         "dots":"url('/dots.png')",
