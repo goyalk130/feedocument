@@ -21,7 +21,8 @@ module.exports = {
         scooter:"scooter infinte ease-in-out"
       },
       fontFamily:{
-        "fjalla": ['Fjalla One', 'sans-serif']
+        "fjalla": ['Fjalla One', 'sans-serif'],
+        "mitr":['Mitr', "sans-serif"]
       },
       backgroundImage: {
         "dots":"url('/dots.png')",
@@ -29,6 +30,9 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors:{
+        light:"#404040"
+      }
     },
   },
   plugins: [],

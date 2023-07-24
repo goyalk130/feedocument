@@ -1,13 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+body,html{
+  width: 100%;
+}
+body,html{
+  height: 100%;
+}
 
 *{
+  box-sizing: border-box;
   /* border: 1px solid black; */
+}
+.data{
+  transition: height 2s ease-in-out;
 }
 @keyframes scooter {
   0%{
@@ -58,7 +68,38 @@
     }
 }
 
-body,html{
-  height: 100%;
-  width: 100%;
+p{
+  font-weight: 300;
+  font-size: 1.2rem;
+  text-overflow: ellipsis;
 }
+.data h1{
+    font-size: 2rem;
+}
+.data h2{
+
+    font-size: 1.5rem
+}
+.data h3{
+
+    font-size: 1.17rem
+}
+.data h4{
+
+    font-size: 1rem
+}
+.data h5{
+
+    font-size: 0.83rem
+}
+.data h6{
+
+    font-size: 0.67rem
+}
+
+ul{
+  margin-left: 2rem;
+  list-style-type: disc;
+}
+
+
