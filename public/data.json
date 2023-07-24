@@ -1,66 +1,76 @@
 {
-    "title": "#Main title",
+    "title": "#Fee 5th Sem",
     "data": [
-        "loreem ipsum contecnt is written here only an nothing else",
-        "-List heading --List item 1 --List item 2 --List item 3",
-        "#Heading 1",
-        "##Heading 2",
-        "###Heading 3",
-        "####Heading 4",
-        "#####Heading 5",
-        "######Heading 6"
+        "first day interaction",
+        "##Why Web dev?",
+        "-basics of html --Baics of Css",
+        "##Industry trends in web dev",
+        "##what are we gonna study in next 6 months"
     ],
     "subdata": [
         {
-            "title": "#Main title",
+            "title": "#Intro to Html",
             "data": [
-                "loreem ipsum contecnt is written here only an nothing else",
-                "-List heading --List item 1 --List item 2 --List item 3",
-                "####Note: it says something"
+                "##Tags",
+                "-div --span --img --List --Types of list --Paragraph tag --Anchor tag ",
+                "##Chitkara demo website home work project"
             ],
             "subdata": [
                 {
-                    "title": "#Main title",
+                    "title": "#Key-pointers",
                     "data": [
-                        "loreem ipsum contecnt is written here only an nothing else",
-                        "-List heading --List item 1 --List item 2 --List item 3",
-                        "####Note: it says something"
+                        "different attributes and tags and properties",
+                        "-Heading tags --src attribute --pre tag",
+                        "###In how many ways css can be applied",
+                        "-Inline --Internal css --External css ",
+                        "##which one has highest priority - Inline",
+                        "##Height and width in Style attribute has high priority in IMG tag"
                     ],
                     "subdata": [
                        
                     ]
-                },
-                {
-                    "title": "#Main title",
-                    "data": [
-                        "loreem ipsum contecnt is written here only an nothing else",
-                        "-List heading --List item 1 --List item 2 --List item 3",
-                        "####Note: it says something"
-                    ],
-                    "subdata": [
-                    
-                    ]
                 }
             ]
         },
+        
         {
-            "title": "##Main title",
+            "title": "#Online Classes started",
             "data": [
-                "loreem ipsum contecnt is written here only an nothing else",
-                "-List heading --List item 1 --List item 2 --List item 3",
-                "#Note: it says something"
+                "classes started from 18th of july",
+                "##What we studied today",
+                "-Map tag --opening diff images with map --local img and hosted image diff --What are Attributes",
+                "#Map Tag query ?",
+                "in this if 2 areas have same coordinates than above one will work ",
+                "##Chitkara website home work"
             ],
             "subdata": [
-            ]
-        },
-        {
-            "title": "#Main title",
-            "data": [
-                "loreem ipsum contecnt is written here only an nothing else",
-                "-List heading --List item 1 --List item 2 --List item 3",
-                "####Note: it says something"
-            ],
-            "subdata": [
+                {
+                    "title":"#Some more hands on practice",
+                    "data":[
+                        "##Studied:-",
+                        "-bloack and inline element --pixel perfection --js question by students",
+                        "##Clock making project"
+                    ],
+                    "subdata":[]
+                },{
+                    "title":"#Clock presenting",
+                    "data":[
+                        "##Studied:-",
+                        "-SVGs --audio tag --video tag- --frame -practice of these tags --source tag --media controls "
+                    ],
+                    "subdata":[]
+                },{
+                    "title":"#Friday",
+                    "data":[
+                        "##Studied:-",
+                        "-Vh vw pixels viewport  ",
+                        "###Text formattings-",
+                        "-superscipt subscript",
+                        "##Some new Concepts",
+                        "-Heart beat in js --target in anchor tag --dot notation in js --navigator web api --getlocation "
+                    ],
+                    "subdata":[]
+                }
             ]
         }
     ]
