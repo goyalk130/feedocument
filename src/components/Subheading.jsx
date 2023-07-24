@@ -9,7 +9,7 @@ const Subheading = ({count,content}) => {
   return (
     <div style={{width:`${percent}`}} className='flex justify-center items-end flex-col'>
       {content?.map((item,num)=>{
-        return(<Datawrapper count={count} content={item} />)
+        return(<Datawrapper key={num} count={count} content={item} />)
       })}
     </div>
   )
