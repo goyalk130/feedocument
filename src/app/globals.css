@@ -103,4 +103,14 @@ ul{
   list-style-type: disc;
 }
 
+.code-con{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem;
+}
+.code-con div{
+   background: #000;
+}
+
 
