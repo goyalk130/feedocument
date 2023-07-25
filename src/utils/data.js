@@ -66,30 +66,42 @@ const obj = {
             "-Vh vw pixels viewport  ",
             "###Text formattings-",
             "-superscipt subscript",
-            
           ],
-          subdata: [{
-            title:"#Some new Concepts",
-            data:[
-            "-Heart beat in js --target in anchor tag --dot notation in js --navigator web api --getlocation ",],
-            subdata:[]
-          }],
+          subdata: [
+            {
+              title: "#Some new Concepts",
+              data: [
+                "-Heart beat in js --target in anchor tag --dot notation in js --navigator web api --getlocation ",
+              ],
+              subdata: [],
+            },
+          ],
         },
         {
           title: "#24 July - css, hyperlink, src, bootstrap",
           data: [
             "##Studied:-",
             "-Why CSS --Attribute to seprate css ; --ways to do internal styling (id,class,tags) --font family --hyperlink and src diff --bootstarp cdn--high priority of which css: inline--universal selectors  ",
-            "###How css hepled developers",
-            "css helped in reusibility and readibility of code",
-            "###selector and declaration in css",
-            "selectors are access points for elements of HTML and one selector can have multiple declarations where each declaration have a property that is applied to the selected element and it's value",
           ],
-          subdata: [],
+          subdata: [
+            {
+              title: "#How css hepled developers",
+              data: ["css helped in reusibility and readibility of code"],
+              subdata: [],
+            },
+            {
+              title: "#selector and declaration in css",
+              data: [
+                "selectors are access points for elements of HTML and one selector can have multiple declarations where each declaration have a property that is applied to the selected element and it's value",
+              ],
+              subdata: [],
+            },
+          ],
         },
         {
           title: "#24 July - css, hyperlink, src, bootstrap",
-          data: [`<h1 style="background-color: burlywood;">RGB,Hex,Hsl,Normal</h1>
+          data: [
+            `<h1 style="background-color: burlywood;">RGB,Hex,Hsl,Normal</h1>
             <h3 style="background-color:rgb(229, 15, 15);">Hello</h3>
                         <h3 style="background-color:rgb(229, 15, 15);">Hello</h3>
             <h3 style="background-color:rgb(41, 41, 221, 0.817);">Hello</h3>`,
