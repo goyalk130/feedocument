@@ -107,10 +107,50 @@ ul{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0rem;
+  padding: 1rem;
+  padding: 0 4rem;
+  width: 100%;
 }
-.code-con div{
-   background: #000;
+.code-con > div{
+  /* overflow-y: scroll; */
+  width: 90%;
+  overflow: hidden;
+  padding: 1rem !important;
 }
+.code-con > div > span{
+  padding-top: 1rem !important;
+  display: block !important;
+  width: 100% !important;
+  overflow-x: scroll !important;
+}
+.code-con > div > span::-webkit-scrollbar{
+  width: 1rem;
+}
+.code-con > div > span::-webkit-scrollbar-track{
+  background-color: transparent;
+}
+.code-con > div > span::-webkit-scrollbar-thumb{
 
+  background-color: rgba(0, 0, 0, 0.45);
+  border-radius: 1rem;
+}
+.code-con  code{
+  font-size: 1.2rem !important;
+  -webkit-font-smoothing: antialiased !important;
+  
+
+  width: 90%;
+}
+.sc-aXZVg{
+  position: absolute !important;
+  top: 10px !important;
+}
+@media (max-width:750px) {
+  .code-con{
+    padding: 0;
+  }
+  .code-con > div{
+    width: 100% !important;
+  }
+}
 

@@ -1,4 +1,4 @@
-import { CodeBlock, dracula } from "react-code-blocks";
+import { CodeBlock, CopyBlock, dracula, hybrid, obsidian, rainbow } from "react-code-blocks";
 
 export default function figureoutelement(s) {
   let news = "";
@@ -50,7 +50,8 @@ export default function figureoutelement(s) {
 
       return (
         <div className="code-con">
-            <CodeBlock
+            <CopyBlock
+            codeBlockStyle={{fontsize:"2rem"}}
           text={s}
           language="html"
           showLineNumbers={true}

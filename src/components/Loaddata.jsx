@@ -3,7 +3,7 @@ import React from 'react'
 
 const Loaddata = ({content}) => {
   return (
-    <div className='w-full self-center '>{figureoutelement(content)}</div>
+    <div className='w-full self-center w-full'>{figureoutelement(content)}</div>
   )
 }
 
