@@ -122,12 +122,14 @@ const obj = {
                 ]
             },
             {
-                title:"#Border",
+                title:"#outline",
                 data:[
+                    `<h1 style="outline: 10px black solid;">Hello</h1>`
                     
-                    
-                ]
-            }
+                ],
+                subdata:[]
+            },
+            
           ],
         },
       ],
