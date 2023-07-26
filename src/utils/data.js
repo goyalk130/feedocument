@@ -99,14 +99,45 @@ const obj = {
           ],
         },
         {
-          title: "#24 July - css, hyperlink, src, bootstrap",
+          title: "#25 July - css, color, border, box model",
           data: [
-            `<h1 style="background-color: burlywood;">RGB,Hex,Hsl,Normal</h1>
-            <h3 style="background-color:rgb(229, 15, 15);">Hello</h3>
-                        <h3 style="background-color:rgb(229, 15, 15);">Hello</h3>
-            <h3 style="background-color:rgb(41, 41, 221, 0.817);">Hello</h3>`,
+            "##studied",
+            "-types of colors in css--background----border--margin--padding"
           ],
-          subdata: [],
+          subdata: [
+            {
+                title:"#Types of Color",
+                data:[
+                    "##RGB",
+                    `<h1 style="background-color: burlywood;">RGB,Hex,Hsl,Normal</h1>`,
+                    "##Hex code",
+                    `<h3 style="background-color: #6a5acd;">Hello</h3>`,
+                    "##HSL",
+                    `<h3 style="background-color: hsl(143, 50%, 54%);">Hello</h3>`,
+                    "##Color name",
+                    `<h3 style="background-color: red;">Hello</h3>`,
+                    "##CMYK",
+                    `available in CSS4`,
+                    
+                ]
+            },
+            {
+                title:"#Types of Color",
+                data:[
+                    "##RGB",
+                    `<h1 style="background-color: burlywood;">RGB,Hex,Hsl,Normal</h1>`,
+                    "##Hex code",
+                    `<h3 style="background-color: #6a5acd;">Hello</h3>`,
+                    "##HSL",
+                    `<h3 style="background-color: hsl(143, 50%, 54%);">Hello</h3>`,
+                    "##Color name",
+                    `<h3 style="background-color: red;">Hello</h3>`,
+                    "##CMYK",
+                    `available in CSS4`,
+                    
+                ]
+            }
+          ],
         },
       ],
     },

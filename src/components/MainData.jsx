@@ -8,7 +8,7 @@ const MainData = () => {
   console.log(count);
   return (
     <div className="maindata overflow-y-scroll font-mitr w-full h-full  bg-dots flex justify-start flex-col items-center ">
-      <div className="text-6xl w-full bg-white lg:shadow-lg z-50 md:text-8xl lg:text-9xl font-anton sticky top-0 text-light  ">
+      <div className="text-6xl w-full bg-white lg:shadow-lg z-40 md:text-8xl lg:text-9xl font-anton sticky top-0 text-light  ">
         <div className="bg-dots flex justify-center py-8">
           <h1>KARAN GOYAL</h1>
         </div>

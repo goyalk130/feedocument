@@ -9,7 +9,7 @@ export default function Home() {
       <div
         className={`${
           position ? "move" : ""
-        } w-full h-full bg-white absolute top-0 left-full z-40`}
+        } w-full h-full bg-white absolute top-0 right-0 z-50`}
       >
         <div
           className={` absolute top-0 right-0 overflow-hidden  w-full h-full bg-dots text-black text-5xl font-fjalla flex justify-center items-center flex-col`}

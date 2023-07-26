@@ -1,4 +1,5 @@
-import { CodeBlock, CopyBlock, dracula, hybrid, obsidian, rainbow } from "react-code-blocks";
+import {  CopyBlock, dracula, hybrid, obsidian, rainbow } from "react-code-blocks";
+import {CodeBlock} from "@atlaskit/code"
 
 export default function figureoutelement(s) {
   let news = "";
@@ -54,6 +55,7 @@ export default function figureoutelement(s) {
             codeBlockStyle={{fontsize:"2rem"}}
           text={s}
           language="html"
+          codeBlock
           showLineNumbers={true}
           theme={dracula}
         />
