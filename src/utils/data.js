@@ -122,18 +122,9 @@ const obj = {
                 ]
             },
             {
-                title:"#Types of Color",
+                title:"#Border",
                 data:[
-                    "##RGB",
-                    `<h1 style="background-color: burlywood;">RGB,Hex,Hsl,Normal</h1>`,
-                    "##Hex code",
-                    `<h3 style="background-color: #6a5acd;">Hello</h3>`,
-                    "##HSL",
-                    `<h3 style="background-color: hsl(143, 50%, 54%);">Hello</h3>`,
-                    "##Color name",
-                    `<h3 style="background-color: red;">Hello</h3>`,
-                    "##CMYK",
-                    `available in CSS4`,
+                    
                     
                 ]
             }
