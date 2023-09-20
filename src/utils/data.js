@@ -109,13 +109,13 @@ const obj = {
                 title:"#Types of Color",
                 data:[
                     "##RGB",
-                    `<h1 style="background-color: burlywood;">RGB,Hex,Hsl,Normal</h1>`,
+                    `h<h1 style="background-color: burlywood;">RGB,Hex,Hsl,Normal</h1>`,
                     "##Hex code",
-                    `<h3 style="background-color: #6a5acd;">Hello</h3>`,
+                    `h<h3 style="background-color: #6a5acd;">Hello</h3>`,
                     "##HSL",
-                    `<h3 style="background-color: hsl(143, 50%, 54%);">Hello</h3>`,
+                    `h<h3 style="background-color: hsl(143, 50%, 54%);">Hello</h3>`,
                     "##Color name",
-                    `<h3 style="background-color: red;">Hello</h3>`,
+                    `h<h3 style="background-color: red;">Hello</h3>`,
                     "##CMYK",
                     `available in CSS4`,
                     
@@ -124,7 +124,17 @@ const obj = {
             {
                 title:"#outline",
                 data:[
-                    `<h1 style="outline: 10px black solid;">Hello</h1>`
+                    `h<h1 style="outline: 10px black solid;">Hello</h1>`
+                    
+                ],
+                subdata:[]
+            },
+            {
+                title:"#Background",
+                data:[
+                    `cbody {
+                      background: #ffffff url("img_tree.png") no-repeat right top;
+                    }`
                     
                 ],
                 subdata:[]

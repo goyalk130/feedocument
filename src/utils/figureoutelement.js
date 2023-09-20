@@ -45,24 +45,36 @@ export default function figureoutelement(s) {
     } else if (s[0] == "/") {
       news = s.substring(1);
       return <img src={news} />;
-    } else if (s[0] == "<") {
+    } else{
       // s=s.replaceAll("<","&lt;")
       // s=s.replaceAll(">","&gt;")
-
+      let type=""
+      switch(s[0]){
+        case "h":
+          type="html"
+          break;
+        case "c":
+          type="css"
+          break;
+        case "j":
+          type="js"
+          break;
+        default:
+          return (<p>{s}</p>)
+      }
+      s=s.replace(s[0],"")
       return (
         <div className="code-con">
             <CopyBlock
             codeBlockStyle={{fontsize:"2rem"}}
           text={s}
-          language="html"
+          language={type}
           codeBlock
           showLineNumbers={true}
           theme={dracula}
         />
         </div>
       );
-    } else {
-      return <p>{s}</p>;
-    }
+    } 
   }
 }
