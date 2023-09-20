@@ -8,7 +8,7 @@ export default function Home() {
     <div className="page relative overflow-hidden w-full h-full">
       <div
         className={`${
-          position ? "move" : ""
+          position && "move"
         } w-full h-full bg-white absolute top-0 right-0 z-50`}
       >
         <div

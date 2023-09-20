@@ -28,17 +28,6 @@ body,html{
     bottom: 0.1rem;
   }
 }
-@keyframes move {
-  0%{
-    left: 0;
-  }
-  10%{
-    left: 0;
-  }
-  100%{
-    left: 100%;
-  }
-}
 .scooter{
   animation: scooter 0.5s infinite alternate ease-in-out ;
   display: inline;
@@ -76,32 +65,44 @@ p{
 }
 .data h1{
     font-size: 2rem;
-}
-.data h2{
+  }
+  .data h2{
 
     font-size: 1.5rem
 }
 .data h3{
 
-    font-size: 1.17rem
+  font-size: 1.17rem
 }
 .data h4{
 
-    font-size: 1rem
+  font-size: 1rem
 }
 .data h5{
 
-    font-size: 0.83rem
+  font-size: 0.83rem
 }
 .data h6{
-
+  
     font-size: 0.67rem
-}
+  }
 
-ul{
-  margin-left: 2rem;
-  list-style-type: disc;
-}
+  ul{
+    margin-left: 2rem;
+    list-style-type: disc;
+  }
 
-
-
+  
+  
+  
+  @keyframes move {
+    0%{
+      left: 0;
+    }
+    10%{
+      left: 0;
+    }
+    100%{
+      left: 100%;
+    }
+  }
