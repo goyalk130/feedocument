@@ -1,6 +1,13 @@
-import {  CopyBlock, dracula, hybrid, obsidian, rainbow } from "react-code-blocks";
-import {CodeBlock} from "@atlaskit/code"
-
+// import {
+//   CopyBlock,
+//   dracula,
+//   hybrid,
+//   obsidian,
+//   rainbow,
+// } from "react-code-blocks";
+// import { CodeBlock } from "@atlaskit/code";
+import SytaxHighlighter from "react-syntax-highlighter";
+import { atelierLakesideDark } from "react-syntax-highlighter/dist/esm/styles/hljs";
 export default function figureoutelement(s) {
   let news = "";
   if (s) {
@@ -45,36 +52,37 @@ export default function figureoutelement(s) {
     } else if (s[0] == "/") {
       news = s.substring(1);
       return <img src={news} />;
-    } else{
+    } else {
       // s=s.replaceAll("<","&lt;")
       // s=s.replaceAll(">","&gt;")
-      let type=""
-      switch(s[0]){
+      let type = "";
+      switch (s[0]) {
         case "h":
-          type="html"
+          type = "html";
           break;
         case "c":
-          type="css"
+          type = "css";
           break;
         case "j":
-          type="js"
+          type = "js";
           break;
         default:
-          return (<p>{s}</p>)
+          return <p>{s}</p>;
       }
-      s=s.replace(s[0],"")
+      s = s.replace(s[0], "");
       return (
         <div className="code-con">
-            <CopyBlock
+          <SytaxHighlighter style={atelierLakesideDark}>{s}</SytaxHighlighter>
+          {/* <CopyBlock
             codeBlockStyle={{fontsize:"2rem"}}
           text={s}
           language={type}
           codeBlock
           showLineNumbers={true}
           theme={dracula}
-        />
+        /> */}
         </div>
       );
-    } 
+    }
   }
 }
